@@ -1,10 +1,117 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
-  title = 'app works!';
-}
+
+  export class AppComponent {
+    assignments: Object[] = [
+      {RepName: 'KAPENA TAGGART (REP)',
+      RepID: 14403,
+      VP: 'SLUYTER',
+      M1: 'JADEN BANASZYNSKI',
+      M1Percentage: 40,
+      M2: 'DEVAN WEBB',
+      M2Percentage: 30,
+      M3: null,
+      M3Percentage: null,
+      M4: null,
+      M4Percentage: null,
+      M5: null,
+      M5Percentage: null,
+      RegionalName: 'VIRGIN-SMITH',
+      Month: 'March',
+      Year: 2018},
+
+      {'RepName': 'JADEN CHAPMAN (REP)',
+      RepID: 10981,
+      VP: 'SLUYTER',
+      M1: 'TAYLOR CHAPMAN',
+      M1Percentage: 40,
+      M2: 'DEVAN WEBB',
+      M2Percentage: 30,
+      M3: null,
+      M3Percentage: null,
+      M4: null,
+      M4Percentage: null,
+      M5: null,
+      M5Percentage: null,
+      RegionalName: 'VIRGIN-SMITH',
+      Month: 'March',
+      Year: 2018},
+
+      {'RepName': 'KYLE BURROW (REP)',
+      RepID: 12531,
+      VP: 'SLUYTER',
+      M1: 'TAYLOR CHAPMAN',
+      M1Percentage: 40,
+      M2: 'DEVAN WEBB',
+      M2Percentage: 30,
+      M3: null,
+      M3Percentage: null,
+      M4: null,
+      M4Percentage: null,
+      M5: null,
+      M5Percentage: null,
+      RegionalName: 'VIRGIN-SMITH',
+      Month: 'March',
+      Year: 2018},
+
+      {'RepName': 'OLIVIA CLEVELAND (REP)',
+      RepID: 11536,
+      VP: 'SLUYTER',
+      M1: 'TAYLOR CHAPMAN',
+      M1Percentage: 40,
+      M2: 'DEVAN WEBB',
+      M2Percentage: 30,
+      M3: null,
+      M3Percentage: null,
+      M4: null,
+      M4Percentage: null,
+      M5: null,
+      M5Percentage: null,
+      RegionalName: 'VIRGIN-SMITH',
+      Month: 'March',
+      Year: 2018},
+
+      {'RepName': 'JAMES WILSON (REP)',
+      RepID: 14646,
+      VP: 'MISER',
+      M1: 'ARTHUR CHIDESTER',
+      M1Percentage: 30,
+      M2: null,
+      M2Percentage: null,
+      M3: null,
+      M3Percentage: null,
+      M4: null,
+      M4Percentage: null,
+      M5: null,
+      M5Percentage: null,
+      RegionalName: 'BONNETT',
+      Month: 'March',
+      Year: 2018},
+
+      {'RepName': 'CASON HALES (REP)',
+      RepID: 14657,
+      VP: 'MISER',
+      M1: 'ARTHUR CHIDESTER',
+      M1Percentage: 30,
+      M2: null,
+      M2Percentage: null,
+      M3: null,
+      M3Percentage: null,
+      M4: null,
+      M4Percentage: null,
+      M5: null,
+      M5Percentage: null,
+      RegionalName: 'BONNETT',
+      Month: 'March',
+      Year: 2018},
+      ];
+    }
+
+
+
+

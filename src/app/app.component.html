@@ -1,3 +1,51 @@
-<h1>
-  {{title}}
-</h1>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<table class="table table-hover">
+				<thead>
+					<!-- <tr> -->
+						<th>Rep Name</th>
+						<th>RepID</th>
+						<th>VP</th>
+            <th>Manager 1</th>
+            <th>M1%</th>
+            <th>Manager 2</th>
+            <th>M2%</th>
+            <th>Manager 3</th>
+            <th>M3%</th>
+            <th>Manager 4</th>
+            <th>M4%</th>
+            <th>Manager 5</th>
+            <th>M5%</th>
+            <th>Regional Name</th>
+            <th>Month/Year</th>
+            <!-- <th>Year</th> -->
+					<!-- </tr> -->
+				</thead>
+				<tbody>
+					<tr *ngFor="let assignment of assignments;">
+            <td>{{assignment.RepName}}</td>
+            <td>{{assignment.RepID}}</td>
+            <td>{{assignment.VP}}</td>
+            <td>{{assignment.M1}}</td>
+            <td>{{assignment.M1Percentage}}</td>
+            <td>{{assignment.M2}}</td>
+            <td>{{assignment.M2Percentage}}</td>
+            <td>{{assignment.M3}}</td>
+            <td>{{assignment.M3Percentage}}</td>
+            <td>{{assignment.M4}}</td>
+            <td>{{assignment.M4Percentage}}</td>
+            <td  placeholder="N/A">{{assignment.M5}}</td>
+            <td>{{assignment.M5Percentage}}</td>
+            <td>{{assignment.RegionalName}}</td>
+            <td>{{assignment.Month}}-{{assignment.Year}}</td>
+            <!-- <td></td> -->
+            
+					</tr>
+					
+					
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>
